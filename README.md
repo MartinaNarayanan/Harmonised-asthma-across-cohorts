@@ -12,8 +12,8 @@
 
 ## Syntax and data availability
 
-- *Source data:* Download raw data files from the **UK Data Service** and place them in `data/raw/`.
-- *Syntax:* `01_build_dataset.R` reads those files and produces `data/derived/next_steps.parquet` *(note: keep the code well-commented and use **relative** file paths—e.g., `here::here("data", "raw", ...)` in R, or `$raw` / `$derived` globals in Stata).*
+- *Source data:* Download raw data files from the **UK Data Service** for all cohorts and all time points and place them in the appropriate macros, e.g. `response` `age5` etc.
+- *Syntax:* update 'inputpath' and 'inputpath2' according to where you stored raw data for cohort studies
 - *Derived dataset:* Available to download from the [**UK Data Service**](https://beta.ukdataservice.ac.uk).
 
 ---
@@ -23,11 +23,7 @@
 We welcome user feedback. Please open an issue on GitHub or email **clsdata@ucl.ac.uk**.
 
 ## Authors
-- X author
- 
-## Contributors [optional e.g., for code checkers]
-
-- X contributor
+- Narayanan M., Gimeno L., Hardy R.
 
 ## Licence  
 Code: MIT Licence (see `LICENSE`).
