@@ -14,7 +14,7 @@
 
 - *Source data:* Download raw data files from the **UK Data Service** for all cohorts and all time points and place them in the appropriate macros, e.g. `response` `age5` etc.
 - *Syntax:* update 'inputpath' and 'inputpath2' according to where you stored raw data for cohort studies
-- *Derived dataset:* Available to download from the [**UK Data Service**](https://beta.ukdataservice.ac.uk).
+- *Derived dataset:* Available to download from the [**UK Data Service**]([https://beta.ukdataservice.ac.uk](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=9417)).
 
 ---
 
